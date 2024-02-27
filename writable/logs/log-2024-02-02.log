@@ -1,0 +1,161 @@
+CRITICAL - 2024-02-02 01:59:21 --> ErrorException: Undefined variable $produkModel
+in APPPATH\Controllers\Produk.php on line 11.
+ 1 APPPATH\Controllers\Produk.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produkModel', 'F:\\sss\\UKK\\ci4\\app\\Controllers\\Produk.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-02 01:59:28 --> ErrorException: Undefined variable $produkModel
+in APPPATH\Controllers\Produk.php on line 11.
+ 1 APPPATH\Controllers\Produk.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produkModel', 'F:\\sss\\UKK\\ci4\\app\\Controllers\\Produk.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-02 01:59:31 --> ErrorException: Undefined variable $produkModel
+in APPPATH\Controllers\Produk.php on line 11.
+ 1 APPPATH\Controllers\Produk.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produkModel', 'F:\\sss\\UKK\\ci4\\app\\Controllers\\Produk.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-02 01:59:47 --> ErrorException: Undefined variable $produkModel
+in APPPATH\Controllers\Produk.php on line 11.
+ 1 APPPATH\Controllers\Produk.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produkModel', 'F:\\sss\\UKK\\ci4\\app\\Controllers\\Produk.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-02 02:00:25 --> ErrorException: Undefined variable $ProdukModel
+in APPPATH\Controllers\Produk.php on line 12.
+ 1 APPPATH\Controllers\Produk.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ProdukModel', 'F:\\sss\\UKK\\ci4\\app\\Controllers\\Produk.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-02 02:06:17 --> ErrorException: Undefined variable $produkModel
+in APPPATH\Controllers\Produk.php on line 12.
+ 1 APPPATH\Controllers\Produk.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produkModel', 'F:\\sss\\UKK\\ci4\\app\\Controllers\\Produk.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-02 02:06:37 --> ErrorException: Undefined variable $produkModel
+in APPPATH\Controllers\Produk.php on line 12.
+ 1 APPPATH\Controllers\Produk.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produkModel', 'F:\\sss\\UKK\\ci4\\app\\Controllers\\Produk.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-02 02:10:14 --> ErrorException: Undefined variable $tb_produk
+in APPPATH\Views\produk.php on line 149.
+ 1 APPPATH\Views\produk.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tb_produk', 'F:\\sss\\UKK\\ci4\\app\\Views\\produk.php', 149)
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\sss\\UKK\\ci4\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Controllers\Produk.php(20): view('produk')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-02 02:12:59 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\produk.php on line 155.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 4 APPPATH\Controllers\Produk.php(20): view('produk')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-02 02:13:17 --> ErrorException: Undefined variable $tb_produk
+in APPPATH\Views\produk.php on line 149.
+ 1 APPPATH\Views\produk.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tb_produk', 'F:\\sss\\UKK\\ci4\\app\\Views\\produk.php', 149)
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\sss\\UKK\\ci4\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Controllers\Produk.php(20): view('produk')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-02 02:13:23 --> Error: Undefined constant "tb_produk"
+in APPPATH\Views\produk.php on line 149.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 4 APPPATH\Controllers\Produk.php(20): view('produk')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-02 02:14:50 --> ErrorException: Undefined variable $tb_produk
+in APPPATH\Views\produk.php on line 149.
+ 1 APPPATH\Views\produk.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tb_produk', 'F:\\sss\\UKK\\ci4\\app\\Views\\produk.php', 149)
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\sss\\UKK\\ci4\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Controllers\Produk.php(20): view('produk')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-02 02:26:34 --> ErrorException: Undefined array key ""
+in APPPATH\Views\produk.php on line 165.
+ 1 APPPATH\Views\produk.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'F:\\sss\\UKK\\ci4\\app\\Views\\produk.php', 165)
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\sss\\UKK\\ci4\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Controllers\Produk.php(24): view('produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-02 03:09:56 --> ErrorException: Undefined variable $plg
+in APPPATH\Views\pengguna\index.php on line 160.
+ 1 APPPATH\Views\pengguna\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $plg', 'F:\\sss\\UKK\\ci4\\app\\Views\\pengguna\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\sss\\UKK\\ci4\\app\\Views\\pengguna\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pengguna/index', [], true)
+ 5 APPPATH\Controllers\Pengguna.php(24): view('pengguna/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pengguna->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-02 04:04:02 --> Error: Undefined constant "base_url"
+in APPPATH\Views\produk\create.php on line 132.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk/create', [], true)
+ 4 APPPATH\Controllers\Produk.php(37): view('produk/create', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-02 04:04:17 --> ErrorException: Undefined variable $data
+in APPPATH\Views\produk\create.php on line 195.
+ 1 APPPATH\Views\produk\create.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\sss\\UKK\\ci4\\app\\Views\\produk\\create.php', 195)
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\sss\\UKK\\ci4\\app\\Views\\produk\\create.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk/create', [], true)
+ 5 APPPATH\Controllers\Produk.php(37): view('produk/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')

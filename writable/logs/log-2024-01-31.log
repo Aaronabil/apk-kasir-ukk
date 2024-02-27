@@ -1,0 +1,171 @@
+CRITICAL - 2024-01-31 02:47:42 --> ParseError: syntax error, unexpected ';'
+in APPPATH\Views\produk.php on line 147.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 3 APPPATH\Controllers\Produk.php(10): view('produk')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+ERROR - 2024-01-31 04:06:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'root', 'db_kasir', 3306, '', 0)
+#1 F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 F:\sss\UKK\ci4\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 F:\sss\UKK\ci4\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 F:\sss\UKK\ci4\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2024-01-31 06:23:16 --> ErrorException: Undefined variable: data
+in APPPATH\Views\produk.php on line 148.
+ 1 APPPATH\Views\produk.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'F:\\sss\\UKK\\ci4\\app\\Views\\produk.php', 148, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\sss\\UKK\\ci4\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Controllers\Produk.php(10): view('produk')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-01-31 06:24:43 --> ErrorException: Illegal string offset 'nama_produk'
+in APPPATH\Views\produk.php on line 154.
+ 1 APPPATH\Views\produk.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'nama_produk\'', 'F:\\sss\\UKK\\ci4\\app\\Views\\produk.php', 154, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\sss\\UKK\\ci4\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Controllers\Produk.php(10): view('produk')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-01-31 07:08:14 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\produk.php on line 154.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 4 APPPATH\Controllers\Produk.php(10): view('produk')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-01-31 07:09:56 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\produk.php on line 154.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 4 APPPATH\Controllers\Produk.php(10): view('produk')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-01-31 07:09:59 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\produk.php on line 154.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 4 APPPATH\Controllers\Produk.php(10): view('produk')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-01-31 07:12:16 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\produk.php on line 179.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 3 APPPATH\Controllers\Produk.php(10): view('produk')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-01-31 07:17:13 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\produk.php on line 154.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 4 APPPATH\Controllers\Produk.php(10): view('produk')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-01-31 07:48:03 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\produk.php on line 155.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 4 APPPATH\Controllers\Produk.php(10): view('produk')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-01-31 07:49:41 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\produk.php on line 155.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 4 APPPATH\Controllers\Produk.php(10): view('produk')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-01-31 07:49:42 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\produk.php on line 155.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 4 APPPATH\Controllers\Produk.php(10): view('produk')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-01-31 07:49:42 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\produk.php on line 155.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 4 APPPATH\Controllers\Produk.php(10): view('produk')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-01-31 07:49:46 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\produk.php on line 155.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 4 APPPATH\Controllers\Produk.php(10): view('produk')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')

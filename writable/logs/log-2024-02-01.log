@@ -1,0 +1,238 @@
+CRITICAL - 2024-02-01 05:42:51 --> ErrorException: Undefined variable $tb_produk
+in APPPATH\Views\produk.php on line 149.
+ 1 APPPATH\Views\produk.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tb_produk', 'F:\\sss\\UKK\\ci4\\app\\Views\\produk.php', 149)
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\sss\\UKK\\ci4\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Controllers\Produk.php(10): view('produk')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 05:52:44 --> ErrorException: Undefined property: App\Controllers\Produk::$produkModel
+in APPPATH\Controllers\Produk.php on line 9.
+ 1 APPPATH\Controllers\Produk.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Produk::$produkModel', 'F:\\sss\\UKK\\ci4\\app\\Controllers\\Produk.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 05:53:10 --> ErrorException: Undefined property: App\Controllers\Produk::$ProdukModel
+in APPPATH\Controllers\Produk.php on line 9.
+ 1 APPPATH\Controllers\Produk.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Produk::$ProdukModel', 'F:\\sss\\UKK\\ci4\\app\\Controllers\\Produk.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 05:59:53 --> Error: Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Produk.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:00:58 --> Error: Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Produk.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:09:39 --> Error: Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Produk.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:11:32 --> Error: Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Produk.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:11:43 --> Error: Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Produk.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:11:44 --> Error: Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Produk.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:18:34 --> Error: Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Produk.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:18:34 --> Error: Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Produk.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:18:34 --> Error: Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Produk.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:18:34 --> Error: Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Produk.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:20:36 --> Error: Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Produk.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:20:36 --> Error: Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Produk.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:20:37 --> Error: Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Produk.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:20:37 --> Error: Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Produk.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:25:50 --> Error: Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Produk.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:26:09 --> ErrorException: Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes)
+in APPPATH\Controllers\Produk.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-01 06:26:23 --> Error: Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Produk.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:27:04 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Produk.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('F:\\sss\\UKK\\ci4\\app\\Controllers\\Produk.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Produk')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Produk')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Produk', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:27:37 --> ErrorException: Undefined variable $tb_produk
+in APPPATH\Views\produk.php on line 149.
+ 1 APPPATH\Views\produk.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tb_produk', 'F:\\sss\\UKK\\ci4\\app\\Views\\produk.php', 149)
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\sss\\UKK\\ci4\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Controllers\Produk.php(14): view('produk')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:27:51 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\produk.php on line 182.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 3 APPPATH\Controllers\Produk.php(14): view('produk')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:27:58 --> ErrorException: Undefined variable $pro
+in APPPATH\Views\produk.php on line 155.
+ 1 APPPATH\Views\produk.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pro', 'F:\\sss\\UKK\\ci4\\app\\Views\\produk.php', 155)
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\sss\\UKK\\ci4\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Controllers\Produk.php(14): view('produk')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:28:18 --> ErrorException: Undefined variable $tb_produk
+in APPPATH\Views\produk.php on line 149.
+ 1 APPPATH\Views\produk.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tb_produk', 'F:\\sss\\UKK\\ci4\\app\\Views\\produk.php', 149)
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\sss\\UKK\\ci4\\app\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Controllers\Produk.php(14): view('produk')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:29:10 --> Error: Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Produk.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:31:51 --> ErrorException: Undefined variable $produkModel
+in APPPATH\Controllers\Produk.php on line 11.
+ 1 APPPATH\Controllers\Produk.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produkModel', 'F:\\sss\\UKK\\ci4\\app\\Controllers\\Produk.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:32:45 --> ErrorException: Undefined variable $produkModel
+in APPPATH\Controllers\Produk.php on line 11.
+ 1 APPPATH\Controllers\Produk.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produkModel', 'F:\\sss\\UKK\\ci4\\app\\Controllers\\Produk.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:32:46 --> ErrorException: Undefined variable $produkModel
+in APPPATH\Controllers\Produk.php on line 11.
+ 1 APPPATH\Controllers\Produk.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produkModel', 'F:\\sss\\UKK\\ci4\\app\\Controllers\\Produk.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
+CRITICAL - 2024-02-01 06:32:46 --> ErrorException: Undefined variable $produkModel
+in APPPATH\Controllers\Produk.php on line 11.
+ 1 APPPATH\Controllers\Produk.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produkModel', 'F:\\sss\\UKK\\ci4\\app\\Controllers\\Produk.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\sss\\UKK\\ci4\\public\\index.php')
