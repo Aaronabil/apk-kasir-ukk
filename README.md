@@ -51,4 +51,4 @@ This application was created using several technologies, including:
 > [!NOTE]
 > Save the apk-kasir-ukk folder in any location
 - Create database db_kasir then import database
-- 
+- Update 
