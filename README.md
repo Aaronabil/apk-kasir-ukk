@@ -19,3 +19,8 @@ This repository is a project from the results of my final project (UKK), in this
   - Transaction
       - Sale
   - Report
+
+## Technology used
+This application was created using several technologies, including:
+ **Notes**
+
