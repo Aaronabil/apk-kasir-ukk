@@ -46,3 +46,7 @@ This application was created using several technologies, including:
 - `Git`
 
 ## How to install
+- Download this repository
+
+> [!NOTE]
+> PHP, MySQL and Apache can be installed with a bundle such as _XAMPP_
