@@ -22,5 +22,13 @@ This repository is a project from the results of my final project (UKK), in this
 
 ## Technology used
 This application was created using several technologies, including:
- **Notes**
 
+ **Notes:**
+    
+    Codeigniter here functions as a backend framework
+    Bootstrap functions as a template for the frontend framework
+
+- Codeigniter version 4.4.4
+- Bootstrap version 5.3
+- jQuery version 3.4.0
+- Font awesome version 5.15.4
