@@ -22,11 +22,11 @@ This repository is a project from the results of my final project (UKK), in this
 
 ## Technology used
 This application was created using several technologies, including:
-
- **Notes:**
     
-    Codeigniter here functions as a backend framework
-    Bootstrap functions as a template for the frontend framework
+> [!NOTE]
+> _Codeigniter_ here functions as a backend framework
+> 
+> _Bootstrap_ functions as a template for the frontend framework
 
 - `Codeigniter` version 4.4.4
 - `Bootstrap` version 5.3
@@ -34,7 +34,15 @@ This application was created using several technologies, including:
 - `Font awesome` version 5.15.4
 
 ## Dependency
-**Notes:**
 
-    PHP, MySQL and Apache can be installed with a bundle such as XAMPP
-    Git functions to clone or download this repository
+> [!NOTE]
+> PHP, MySQL and Apache can be installed with a bundle such as _XAMPP_
+>
+>  _Git_ functions to clone or download this repository
+   
+- `PHP` 5 ~ 8.2.12
+- `MySQL` 5.2.1
+- `Apache`
+- `Git`
+
+## How to install
