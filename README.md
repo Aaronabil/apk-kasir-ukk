@@ -4,6 +4,7 @@
  - Technology used
  - Dependency
  - How to install
+ - Run the program
  - Open the program
    - List user
 - Role explanation
@@ -46,9 +47,19 @@ This application was created using several technologies, including:
 - `Git`
 
 ## How to install
-- Download this repository
+- Download this repository (When downloaded it will be in zip form)
+- Unzip the apk-kasir-ukk folder
 
 > [!NOTE]
 > Save the apk-kasir-ukk folder in any location
 - Create database db_kasir then import database
-- Rename the env file to .env (starting with a dot).
+- Rename the env file to .env (starting with a dot)
+
+## Run the program
+- Open Visualstudio Code
+- Navigate to the 'apk-kasir-ukk' folder
+- Open the terminal or click **ctrl + `**
+- Run the php spark serve command then press enter
+
+## Open the program
+open a browser then access the URL http://localhost:8080 then the program will appear like this:
