@@ -49,4 +49,6 @@ This application was created using several technologies, including:
 - Download this repository
 
 > [!NOTE]
-> PHP, MySQL and Apache can be installed with a bundle such as _XAMPP_
+> Save the apk-kasir-ukk folder in any location
+- Create database db_kasir then import database
+- 
